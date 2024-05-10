@@ -58,7 +58,7 @@ private CodeRunner map;
         //the-ball
         g.setColor(Color.red);
         g.fillOval(ballpositionX, ballPositionY, 20, 20);
-        if(totalBricks<0){
+        if(totalBricks==0){
             play=false;
             ballxdir=0;
             ballydir=0;
